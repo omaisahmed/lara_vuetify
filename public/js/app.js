@@ -119,6 +119,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
     HomeSliderComponent: _components_HomeSliderComponent_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  data: function data() {
+    return {
+      show: false,
+      props: {
+        icon: {
+          type: [Boolean, String],
+          "default": false
+        }
+      }
+    };
   }
 });
 
@@ -346,8 +357,108 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function render() {};
+var render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", [_c("HomeSliderComponent"), _vm._v(" "), _c("v-container", {
+    staticClass: "bg-surface-variant my-10"
+  }, [_c("v-row", {
+    staticClass: "mb-6",
+    attrs: {
+      "no-gutters": ""
+    }
+  }, [_c("v-col", {
+    staticClass: "justify-center",
+    attrs: {
+      cols: "12"
+    }
+  }, [_c("v-card-title", {
+    staticClass: "text-h1 text-md-h3 text-lg-h2 text-center mx-auto"
+  }, [_vm._v("All things transfers")])], 1)], 1), _vm._v(" "), _c("v-row", {
+    staticClass: "mb-6",
+    attrs: {
+      "no-gutters": ""
+    }
+  }, [_c("v-col", {
+    attrs: {
+      cols: "6"
+    }
+  }, [_c("v-sheet", {
+    staticClass: "pa-2 ma-2"
+  }, [_c("v-card", {
+    staticClass: "mx-auto py-5",
+    attrs: {
+      "max-width": "450"
+    }
+  }, [_c("v-img", {
+    attrs: {
+      src: "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blte01c5e5b4fb344a5/6409a40a73746524c2ab5ec4/GOAL_-_Blank_WEB_-_Facebook_-_2023-03-09T091625.318.png?quality=60&format=pjpg&auto=webp&width=720",
+      height: "300px",
+      cover: ""
+    }
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n      Top western road trips\n    ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n      1,000 miles of wonder\n    ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+    attrs: {
+      color: "orange-lighten-2",
+      variant: "text"
+    }
+  }, [_vm._v("\n        Explore\n      ")]), _vm._v(" "), _c("v-spacer"), _vm._v(" "), _c("v-btn", {
+    attrs: {
+      icon: _vm.show ? "mdi-chevron-up" : "mdi-chevron-down"
+    },
+    on: {
+      click: function click($event) {
+        _vm.show = !_vm.show;
+      }
+    }
+  })], 1), _vm._v(" "), _c("v-expand-transition", [_c("div", {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _vm.show,
+      expression: "show"
+    }]
+  }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n          I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.\n        ")])], 1)])], 1)], 1)], 1), _vm._v(" "), _c("v-col", {
+    attrs: {
+      cols: "6"
+    }
+  }, [_c("v-sheet", {
+    staticClass: "pa-2 ma-2"
+  }, [_c("v-card", {
+    staticClass: "mx-auto py-5",
+    attrs: {
+      "max-width": "450"
+    }
+  }, [_c("v-img", {
+    attrs: {
+      src: "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltb0115ee68f9b2d3f/63cfb93b2cf9370184a71205/pulisicccc.jpg?quality=60&format=pjpg&auto=webp&width=720",
+      height: "300px",
+      cover: ""
+    }
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n      Top western road trips\n    ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n      1,000 miles of wonder\n    ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+    attrs: {
+      color: "orange-lighten-2",
+      variant: "text"
+    }
+  }, [_vm._v("\n        Explore\n      ")]), _vm._v(" "), _c("v-spacer"), _vm._v(" "), _c("v-btn", {
+    attrs: {
+      icon: ""
+    },
+    on: {
+      click: function click($event) {
+        _vm.show = !_vm.show;
+      }
+    }
+  }, [_c("v-icon", [_vm._v(_vm._s(_vm.show ? "mdi-chevron-up" : "mdi-chevron-down"))])], 1)], 1), _vm._v(" "), _c("v-expand-transition", [_c("div", {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _vm.show,
+      expression: "show"
+    }]
+  }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n          I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.\n        ")])], 1)])], 1)], 1)], 1)], 1)], 1)], 1);
+};
 var staticRenderFns = [];
+render._withStripped = true;
 
 
 /***/ }),
