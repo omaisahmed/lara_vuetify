@@ -24,6 +24,9 @@ __webpack_require__.r(__webpack_exports__);
       }, {
         src: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt6aef62b674ab6064/640ae7c8b080122e5f86493b/Goal_HIC_-_Facebook.jpg',
         alt: 'Third slide'
+      }, {
+        src: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blte444622fd54bb478/64103a171792955a88ce457e/NXGN_2017_HIC_2-1.jpg?quality=80&width=1920&format=pjpg&auto=webp',
+        alt: 'Fourth slide'
       }]
     };
   }
@@ -122,13 +125,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      show: false,
-      props: {
-        icon: {
-          type: [Boolean, String],
-          "default": false
-        }
-      }
+      show: false
     };
   }
 });
@@ -361,14 +358,18 @@ var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c("div", [_c("HomeSliderComponent"), _vm._v(" "), _c("v-container", {
-    staticClass: "bg-surface-variant my-10"
+    staticClass: "bg-surface-variant my-10",
+    attrs: {
+      fluid: "",
+      "max-width": "1200"
+    }
   }, [_c("v-row", {
-    staticClass: "mb-6",
+    staticClass: "mb-6 text-center",
     attrs: {
       "no-gutters": ""
     }
   }, [_c("v-col", {
-    staticClass: "justify-center",
+    staticClass: "justify-center text-center",
     attrs: {
       cols: "12"
     }
@@ -377,16 +378,17 @@ var render = function render() {
   }, [_vm._v("All things transfers")])], 1)], 1), _vm._v(" "), _c("v-row", {
     staticClass: "mb-6",
     attrs: {
-      "no-gutters": ""
+      "no-gutters": "",
+      justify: "center"
     }
   }, [_c("v-col", {
     attrs: {
-      cols: "6"
+      cols: "4"
     }
   }, [_c("v-sheet", {
     staticClass: "pa-2 ma-2"
   }, [_c("v-card", {
-    staticClass: "mx-auto py-5",
+    staticClass: "mx-auto py-3",
     attrs: {
       "max-width": "450"
     }
@@ -396,35 +398,26 @@ var render = function render() {
       height: "300px",
       cover: ""
     }
-  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n      Top western road trips\n    ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n      1,000 miles of wonder\n    ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Top western road trips\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              1,000 miles of wonder\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
     attrs: {
-      color: "orange-lighten-2",
+      color: "bg-dark text-white",
       variant: "text"
     }
-  }, [_vm._v("\n        Explore\n      ")]), _vm._v(" "), _c("v-spacer"), _vm._v(" "), _c("v-btn", {
-    attrs: {
-      icon: _vm.show ? "mdi-chevron-up" : "mdi-chevron-down"
-    },
-    on: {
-      click: function click($event) {
-        _vm.show = !_vm.show;
-      }
-    }
-  })], 1), _vm._v(" "), _c("v-expand-transition", [_c("div", {
+  }, [_vm._v("\n                Explore\n              ")]), _vm._v(" "), _c("v-spacer")], 1), _vm._v(" "), _c("v-expand-transition", [_c("div", {
     directives: [{
       name: "show",
       rawName: "v-show",
       value: _vm.show,
       expression: "show"
     }]
-  }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n          I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.\n        ")])], 1)])], 1)], 1)], 1), _vm._v(" "), _c("v-col", {
+  }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n                  I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time\n                  for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file!\n                  Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find\n                  a way to escape.\n                ")])], 1)])], 1)], 1)], 1), _vm._v(" "), _c("v-col", {
     attrs: {
-      cols: "6"
+      cols: "4"
     }
   }, [_c("v-sheet", {
     staticClass: "pa-2 ma-2"
   }, [_c("v-card", {
-    staticClass: "mx-auto py-5",
+    staticClass: "mx-auto py-3",
     attrs: {
       "max-width": "450"
     }
@@ -434,28 +427,135 @@ var render = function render() {
       height: "300px",
       cover: ""
     }
-  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n      Top western road trips\n    ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n      1,000 miles of wonder\n    ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Top western road trips\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              1,000 miles of wonder\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
     attrs: {
-      color: "orange-lighten-2",
+      color: "bg-dark text-white",
       variant: "text"
     }
-  }, [_vm._v("\n        Explore\n      ")]), _vm._v(" "), _c("v-spacer"), _vm._v(" "), _c("v-btn", {
-    attrs: {
-      icon: ""
-    },
-    on: {
-      click: function click($event) {
-        _vm.show = !_vm.show;
-      }
-    }
-  }, [_c("v-icon", [_vm._v(_vm._s(_vm.show ? "mdi-chevron-up" : "mdi-chevron-down"))])], 1)], 1), _vm._v(" "), _c("v-expand-transition", [_c("div", {
+  }, [_vm._v("\n                Explore\n              ")]), _vm._v(" "), _c("v-spacer")], 1), _vm._v(" "), _c("v-expand-transition", [_c("div", {
     directives: [{
       name: "show",
       rawName: "v-show",
       value: _vm.show,
       expression: "show"
     }]
-  }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n          I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.\n        ")])], 1)])], 1)], 1)], 1)], 1)], 1)], 1);
+  }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n                  I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time\n                  for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file!\n                  Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find\n                  a way to escape.\n                ")])], 1)])], 1)], 1)], 1), _vm._v(" "), _c("v-col", {
+    attrs: {
+      cols: "4"
+    }
+  }, [_c("v-sheet", {
+    staticClass: "pa-2 ma-2"
+  }, [_c("v-card", {
+    staticClass: "mx-auto py-3",
+    attrs: {
+      "max-width": "450"
+    }
+  }, [_c("v-img", {
+    attrs: {
+      src: "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blta9a48b58c7a0f3ad/6410678371a78e7f9e2dcd54/GOAL_-_Multiple_Images_-_2_Split_-_Facebook_(64).png?quality=60&format=pjpg&auto=webp&width=720",
+      height: "300px",
+      cover: ""
+    }
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Top western road trips\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              1,000 miles of wonder\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+    attrs: {
+      color: "bg-dark text-white",
+      variant: "text"
+    }
+  }, [_vm._v("\n                Explore\n              ")]), _vm._v(" "), _c("v-spacer")], 1), _vm._v(" "), _c("v-expand-transition", [_c("div", {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _vm.show,
+      expression: "show"
+    }]
+  }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n                  I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time\n                  for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file!\n                  Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find\n                  a way to escape.\n                ")])], 1)])], 1)], 1)], 1), _vm._v(" "), _c("v-col", {
+    attrs: {
+      cols: "4"
+    }
+  }, [_c("v-sheet", {
+    staticClass: "pa-2 ma-2"
+  }, [_c("v-card", {
+    staticClass: "mx-auto py-3",
+    attrs: {
+      "max-width": "450"
+    }
+  }, [_c("v-img", {
+    attrs: {
+      src: "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blta78b5e1540c9534d/63c7e208567d657e227fc880/Busquets.jpg?quality=60&format=pjpg&auto=webp&width=720",
+      height: "300px",
+      cover: ""
+    }
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Top western road trips\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              1,000 miles of wonder\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+    attrs: {
+      color: "bg-dark text-white",
+      variant: "text"
+    }
+  }, [_vm._v("\n                Explore\n              ")]), _vm._v(" "), _c("v-spacer")], 1), _vm._v(" "), _c("v-expand-transition", [_c("div", {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _vm.show,
+      expression: "show"
+    }]
+  }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n                  I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time\n                  for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file!\n                  Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find\n                  a way to escape.\n                ")])], 1)])], 1)], 1)], 1), _vm._v(" "), _c("v-col", {
+    attrs: {
+      cols: "4"
+    }
+  }, [_c("v-sheet", {
+    staticClass: "pa-2 ma-2"
+  }, [_c("v-card", {
+    staticClass: "mx-auto py-3",
+    attrs: {
+      "max-width": "450"
+    }
+  }, [_c("v-img", {
+    attrs: {
+      src: "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltfdfcd4d969742f46/63efe833606e8510e95f3611/Osimhen_cover.jpg?quality=60&format=pjpg&auto=webp&width=720",
+      height: "300px",
+      cover: ""
+    }
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Top western road trips\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              1,000 miles of wonder\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+    attrs: {
+      color: "bg-dark text-white",
+      variant: "text"
+    }
+  }, [_vm._v("\n                Explore\n              ")]), _vm._v(" "), _c("v-spacer")], 1), _vm._v(" "), _c("v-expand-transition", [_c("div", {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _vm.show,
+      expression: "show"
+    }]
+  }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n                  I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time\n                  for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file!\n                  Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find\n                  a way to escape.\n                ")])], 1)])], 1)], 1)], 1), _vm._v(" "), _c("v-col", {
+    attrs: {
+      cols: "4"
+    }
+  }, [_c("v-sheet", {
+    staticClass: "pa-2 ma-2"
+  }, [_c("v-card", {
+    staticClass: "mx-auto py-3",
+    attrs: {
+      "max-width": "450"
+    }
+  }, [_c("v-img", {
+    attrs: {
+      src: "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf601393b28b502f8/63b9c6734bee8e5e9a3c915c/GettyImages-1232150887(1).jpg?quality=60&format=pjpg&auto=webp&width=720",
+      height: "300px",
+      cover: ""
+    }
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Top western road trips\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              1,000 miles of wonder\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+    attrs: {
+      color: "bg-dark text-white",
+      variant: "text"
+    }
+  }, [_vm._v("\n                Explore\n              ")]), _vm._v(" "), _c("v-spacer")], 1), _vm._v(" "), _c("v-expand-transition", [_c("div", {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _vm.show,
+      expression: "show"
+    }]
+  }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n                  I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time\n                  for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file!\n                  Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find\n                  a way to escape.\n                ")])], 1)])], 1)], 1)], 1)], 1)], 1)], 1);
 };
 var staticRenderFns = [];
 render._withStripped = true;
