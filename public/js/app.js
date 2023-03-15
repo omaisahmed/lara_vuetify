@@ -358,11 +358,7 @@ var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c("div", [_c("HomeSliderComponent"), _vm._v(" "), _c("v-container", {
-    staticClass: "bg-surface-variant my-10",
-    attrs: {
-      fluid: "",
-      "max-width": "1200"
-    }
+    staticClass: "bg-surface-variant my-10"
   }, [_c("v-row", {
     staticClass: "mb-6 text-center",
     attrs: {
@@ -371,7 +367,9 @@ var render = function render() {
   }, [_c("v-col", {
     staticClass: "justify-center text-center",
     attrs: {
-      cols: "12"
+      lg: "12",
+      md: "6",
+      sm: "3"
     }
   }, [_c("v-card-title", {
     staticClass: "text-h1 text-md-h3 text-lg-h2 text-center mx-auto"
@@ -383,12 +381,15 @@ var render = function render() {
     }
   }, [_c("v-col", {
     attrs: {
-      cols: "4"
+      sm: "3",
+      md: "6",
+      lg: "4",
+      xl: "4"
     }
   }, [_c("v-sheet", {
     staticClass: "pa-2 ma-2"
   }, [_c("v-card", {
-    staticClass: "mx-auto py-3",
+    staticClass: "mx-auto pb-3",
     attrs: {
       "max-width": "450"
     }
@@ -398,26 +399,22 @@ var render = function render() {
       height: "300px",
       cover: ""
     }
-  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Top western road trips\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              1,000 miles of wonder\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              When is the Champions League quarter-final draw?\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              The draw will feature the eight winners from the round of 16. There will be no seeded teams or country protection, which means two teams from the same national association can face each other.\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
     attrs: {
       color: "bg-dark text-white",
       variant: "text"
     }
-  }, [_vm._v("\n                Explore\n              ")]), _vm._v(" "), _c("v-spacer")], 1), _vm._v(" "), _c("v-expand-transition", [_c("div", {
-    directives: [{
-      name: "show",
-      rawName: "v-show",
-      value: _vm.show,
-      expression: "show"
-    }]
-  }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n                  I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time\n                  for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file!\n                  Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find\n                  a way to escape.\n                ")])], 1)])], 1)], 1)], 1), _vm._v(" "), _c("v-col", {
+  }, [_vm._v("\n                Explore\n              ")]), _vm._v(" "), _c("v-spacer")], 1)], 1)], 1)], 1), _vm._v(" "), _c("v-col", {
     attrs: {
-      cols: "4"
+      sm: "3",
+      md: "6",
+      lg: "4",
+      xl: "4"
     }
   }, [_c("v-sheet", {
     staticClass: "pa-2 ma-2"
   }, [_c("v-card", {
-    staticClass: "mx-auto py-3",
+    staticClass: "mx-auto pb-3",
     attrs: {
       "max-width": "450"
     }
@@ -427,7 +424,7 @@ var render = function render() {
       height: "300px",
       cover: ""
     }
-  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Top western road trips\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              1,000 miles of wonder\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Real Madrid vs Liverpool: Stream, TV channel & kick-off time\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              However, if they can repeat their heroics of the first fifteen minutes at Anfield and continue in the same vein they will stand a chance of making a comeback.\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
     attrs: {
       color: "bg-dark text-white",
       variant: "text"
@@ -441,12 +438,15 @@ var render = function render() {
     }]
   }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n                  I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time\n                  for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file!\n                  Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find\n                  a way to escape.\n                ")])], 1)])], 1)], 1)], 1), _vm._v(" "), _c("v-col", {
     attrs: {
-      cols: "4"
+      sm: "3",
+      md: "6",
+      lg: "4",
+      xl: "4"
     }
   }, [_c("v-sheet", {
     staticClass: "pa-2 ma-2"
   }, [_c("v-card", {
-    staticClass: "mx-auto py-3",
+    staticClass: "mx-auto pb-3",
     attrs: {
       "max-width": "450"
     }
@@ -456,7 +456,7 @@ var render = function render() {
       height: "300px",
       cover: ""
     }
-  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Top western road trips\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              1,000 miles of wonder\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Napoli vs Frankfurt: Stream, TV channel & kick-off time\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              Goalkeeper Alex Meret is also expected to be back after missing the win over Atalanta. Kim Min-jae and Hirving Lozano are still recovering from their knocks, although the latter may start on the bench.\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
     attrs: {
       color: "bg-dark text-white",
       variant: "text"
@@ -470,12 +470,15 @@ var render = function render() {
     }]
   }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n                  I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time\n                  for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file!\n                  Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find\n                  a way to escape.\n                ")])], 1)])], 1)], 1)], 1), _vm._v(" "), _c("v-col", {
     attrs: {
-      cols: "4"
+      sm: "3",
+      md: "6",
+      lg: "4",
+      xl: "4"
     }
   }, [_c("v-sheet", {
     staticClass: "pa-2 ma-2"
   }, [_c("v-card", {
-    staticClass: "mx-auto py-3",
+    staticClass: "mx-auto pb-3",
     attrs: {
       "max-width": "450"
     }
@@ -485,7 +488,7 @@ var render = function render() {
       height: "300px",
       cover: ""
     }
-  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Top western road trips\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              1,000 miles of wonder\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Man Utd troll Pep over weird Julia Roberts rant 😳\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              THE BIGGER PICTURE: After watching his side decimate RB Leipzig 7-0 with Erling Haaland weighing in with five goals of his own, Guardiola used the post-match press conference to express his frustration at not yet winning a Champions League with City.\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
     attrs: {
       color: "bg-dark text-white",
       variant: "text"
@@ -499,12 +502,15 @@ var render = function render() {
     }]
   }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n                  I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time\n                  for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file!\n                  Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find\n                  a way to escape.\n                ")])], 1)])], 1)], 1)], 1), _vm._v(" "), _c("v-col", {
     attrs: {
-      cols: "4"
+      sm: "3",
+      md: "6",
+      lg: "4",
+      xl: "4"
     }
   }, [_c("v-sheet", {
     staticClass: "pa-2 ma-2"
   }, [_c("v-card", {
-    staticClass: "mx-auto py-3",
+    staticClass: "mx-auto pb-3",
     attrs: {
       "max-width": "450"
     }
@@ -514,7 +520,7 @@ var render = function render() {
       height: "300px",
       cover: ""
     }
-  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Top western road trips\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              1,000 miles of wonder\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Can Liverpool pull off another famous European comeback?\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              Liverpool will need to summon the spirit of some of their greatest European nights in their Champions League last-16 second leg against Real Madrid\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
     attrs: {
       color: "bg-dark text-white",
       variant: "text"
@@ -528,12 +534,15 @@ var render = function render() {
     }]
   }, [_c("v-divider"), _vm._v(" "), _c("v-card-text", [_vm._v("\n                  I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time\n                  for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file!\n                  Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find\n                  a way to escape.\n                ")])], 1)])], 1)], 1)], 1), _vm._v(" "), _c("v-col", {
     attrs: {
-      cols: "4"
+      sm: "3",
+      md: "6",
+      lg: "4",
+      xl: "4"
     }
   }, [_c("v-sheet", {
     staticClass: "pa-2 ma-2"
   }, [_c("v-card", {
-    staticClass: "mx-auto py-3",
+    staticClass: "mx-auto pb-3",
     attrs: {
       "max-width": "450"
     }
@@ -543,7 +552,7 @@ var render = function render() {
       height: "300px",
       cover: ""
     }
-  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Top western road trips\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v("\n              1,000 miles of wonder\n            ")]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
+  }), _vm._v(" "), _c("v-card-title", [_vm._v("\n              Haaland: My super strength is scoring goals! 💪\n            ")]), _vm._v(" "), _c("v-card-subtitle", [_vm._v('\n              Erling Haaland admitted that his "super strength is scoring goals" after a record-breaking performance in the Champions League against RB Leipzig.\n            ')]), _vm._v(" "), _c("v-card-actions", [_c("v-btn", {
     attrs: {
       color: "bg-dark text-white",
       variant: "text"
